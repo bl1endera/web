@@ -25,7 +25,8 @@ html(lang="en")
                             a(href="#") About
                         li
                             a(href="#") Blog
-                button.b1 Request a demo
+                button.b1
+                    a(href="#") Request a demo
                 .l 
                     a(href="#") Login
                         img(class="vector-img" src="./Vector.png", alt="")
@@ -35,15 +36,33 @@ html(lang="en")
                     h1.main-title Give your team peace of mind with supplemental health insurance from Brella.
                     p.title-info I'm wondering...
                     .find-box 
-                        p how Brella's plan works
-                        button.button-find Find out
+                        input(type="text",placeholder="how Brella's plan works") 
+                        button.button-find
+                            a(href="#") Find out
+                .small-box
+                    .umbrella-img
+                        img(src="./Umbrella.png", alt="")                    
+                    .in-small-box
+                        h1.small-box-text More coverage
+                        p.small-box-info Brella covers 13,000+ injuries and illnesses from concussions to cancer.
+                    .check-img
+                        img(src="./check.png", alt="")                    
+                    .in-small-box
+                        h1.small-box-text More coverage
+                        p.small-box-info Brella covers 13,000+ injuries and illnesses from concussions to cancer.
+                    .check-img
+                        img(src="./Folder.png", alt="")                    
+                    .in-small-box
+                        h1.small-box-text More coverage
+                        p.small-box-info Brella covers 13,000+ injuries and illnesses from concussions to cancer.
             .small-main 
                 .small-main-p
                     .first-smallm
                         p.first-s-text WHY BRELLA?
                         h1.small-main-h1 Today, any health insurance deductible can feel like a high deductible.
                         p.second-s-text Brella's supplemental health plan enhances your health benefit strategy to ensure that health hardships don't become financial burdens.
-                        p.third-s-text See our plan
+                        p.third-s-text
+                            a(href="#") See our plan
                     .second-smallm
 
 
@@ -90,10 +109,36 @@ html(lang="en")
                         p.first-h-boxes-text a better claims experience
                         h1.first-h-boxes-text-h1 Give your people a plan that pays in hours—not weeks.
                         p.second-h-boxes-text Your team can’t wait for peace of mind. Brella pays on diagnosis, so members can file a claim sooner and get paid faster via our Member Portal or mobile app.
-                        p.third-h-boses-text Play Video
+                        p.third-h-boses-text 
+                            a(href="#")  Play Video
             .just-main 
                 .just-text-box 
                     p.just-p1 for employers
                     h1.just-h1 Easy enrollment meets simple administration.
                     p.just-p2 Brella brings 100% paperless implementation, enrollment, and admin. Plug into our platforms or we’ll plug into yours.
-                    p.just-last Learn more
+                    p.just-last 
+                        a(href="#")  Learn more
+            .big-main 
+                .big-main-box1
+                    h1.big-main-text Proudly backed by
+                    img(class='Big-Img' src="./Big-Img.png", alt="")
+                .big-main-box2
+                    .in-big-main
+                        img(src="./woman-and.png", alt="")
+                        h1.in-big-text Podcast
+                        p.in-big-p Better Voluntary Benefits with NFP Voluntary Benefits Practice Leader, Kim Heald
+                    .in-big-main 
+                        img(src="./two-mans.png", alt="")
+                        h1.in-big-text Insurance Innovation
+                        p.in-big-p How to Design Simpler Insurance Benefits
+                    .in-big-main 
+                        img(src="./gentelman.png", alt="")
+                        h1.in-big-text Benefits Strategy
+                        p.in-big-p Executive Benefits Outlook with Dan Aceti
+            .get-main 
+                img(src="./fermer.png", alt="")
+                .get-main-box
+                    p.get-main-text Ready to explore Brella’s supplemental health solution?
+                    h1.get-main-title Let’s talk.
+                    button.b-get-main 
+                        a(href="#") Get in touch
